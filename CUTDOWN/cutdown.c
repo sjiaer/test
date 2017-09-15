@@ -64,7 +64,6 @@ void cutdown(uint8_t key,uint8_t remote_key)
 {	
 	static enum Cutdown_state cutdown_status=cutdown_initial_state;
 	static char time_buff_cutdown[24]={0};
-//	OLED_ShowString(36,0,"cutdown",16);
 	OLED_Show_Font(32,0,2);     //¶¨
 	OLED_Show_Font(32+24,0,3);  //Ê±
 	OLED_Show_Font(32+48,0,4);  //Æ÷
